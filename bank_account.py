@@ -74,15 +74,15 @@ class BankAccount:
     def __str__(self):
         return f"{self.account_number} | {self.interest_rate} | {self.account_balance}"
 
-newUser1 = User("Bob", "bob@bobsemail.com", initial_balance = 300)
-newUser2 = User("Jane", "jane@janesemail.com", initial_rate = 0.5, initial_balance = 100)
-newUser3 = User("Dave", "dave@davesemail.com")
-newUser4 = User("Andy", "andy@andysemail.com", initial_rate = 0.1, initial_balance = 200)
+# newUser1 = User("Bob", "bob@bobsemail.com", initial_balance = 300)
+# newUser2 = User("Jane", "jane@janesemail.com", initial_rate = 0.5, initial_balance = 100)
+# newUser3 = User("Dave", "dave@davesemail.com")
+# newUser4 = User("Andy", "andy@andysemail.com", initial_rate = 0.1, initial_balance = 200)
 
-newUser1.display_user_accounts()
-newUser2.display_user_accounts()
-newUser3.display_user_accounts()
-newUser4.display_user_accounts()
+# newUser1.display_user_accounts()
+# newUser2.display_user_accounts()
+# newUser3.display_user_accounts()
+# newUser4.display_user_accounts()
 
 # newUser1.make_deposit(100, 1)
 # newUser1.make_new_account(balance=50)
